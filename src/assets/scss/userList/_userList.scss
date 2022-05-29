@@ -1,0 +1,56 @@
+.user-list--page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+
+    .user-list--block {
+        min-height: 100vh;
+
+        .invitation-list-table {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 1rem;
+
+            table {
+                border: 2px solid forestgreen;
+                width: 1200px;
+                height: 200px;
+            }
+
+            .status-read {
+                background-color: rgba(245, 245, 148, 0.831);
+            }
+
+            .status-unread {
+                background-color: rgb(243, 187, 187);
+            }
+
+            th {
+                border: 1px solid black;
+            }
+
+            td {
+                text-align: center;
+                border: 1px solid black;
+            }
+        }
+
+        .logout-button--block {
+            display: flex;
+            justify-content: flex-end;
+            margin-right: 1rem;
+            margin-top: 1rem;
+
+            .logout-button {
+                cursor: pointer;
+                padding: 0.2rem 1rem;
+                background: lightgray;
+                font-weight: 600;
+            }
+        }
+    }
+
+}
